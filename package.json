@@ -22,7 +22,6 @@
   },
   "bin": "cli.js",
   "dependencies": {
-    "get-stdin": "^9.0.0",
     "winston": "^3.4.0",
     "winston-daily-rotate-file": "^4.5.5"
   }

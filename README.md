@@ -12,6 +12,9 @@ npm install goldilogs
 ```bash
 goldilogs -t {TAG} -p {PATH_TO_LOGS}
 ```
+```bash
+echo "Your Message Here" | goldilogs -t {TAG} -p {PATH_TO_LOGS}
+```
 
 * `-t`: A tag to identify the log file. 
 If a log file with the same tag exists for the current day, will append to that log file. Otherwise will create a new log file.
