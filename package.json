@@ -1,0 +1,17 @@
+{
+  "name": "goldilogs",
+  "version": "1.0.0",
+  "description": "Redirect stdin to log files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Vargas | dav793@gmail.com",
+  "license": "ISC",
+  "bin": "cli.js",
+  "dependencies": {
+    "get-stdin": "^9.0.0",
+    "winston": "^3.4.0",
+    "winston-daily-rotate-file": "^4.5.5"
+  }
+}
