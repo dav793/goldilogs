@@ -1,13 +1,20 @@
 {
   "name": "goldilogs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Redirect stdin to log files",
   "author": "David Vargas <dav793@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/dav793/goldilogs.git"
   },
-  "keywords": ["daily log", "daily logs", "log", "logs", "winston", "node"],
+  "keywords": [
+    "daily log",
+    "daily logs",
+    "log",
+    "logs",
+    "winston",
+    "node"
+  ],
   "license": "ISC",
   "main": "index.js",
   "scripts": {
