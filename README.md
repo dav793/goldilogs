@@ -1,12 +1,14 @@
 
 # Goldilogs
-
 Redirect stdin to log files which are rotated daily. 
-
 Is really just a wrapper that allows to direct stdin to winston.
 
-## Usage
+## Install
+```bash
+npm install goldilogs
+```
 
+## Usage
 ```bash
 goldilogs -t {TAG} -p {PATH_TO_LOGS}
 ```
